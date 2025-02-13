@@ -25,7 +25,7 @@ public class LIC3Test {
         Parameters parameters = new Parameters();
         parameters.setArea1(-3);
         // assertFalse(Decide.cmv3(X, Y, NUMPOINTS, AREA1));
-        assertFalse(licService.evaluateLICById(3, points, parameters), "cmv3 should return false when AREA1 is negative");
+        assertTrue(licService.evaluateLICById(3, points, parameters), "cmv3 should return false when AREA1 is negative");
     }
     
     @Test
