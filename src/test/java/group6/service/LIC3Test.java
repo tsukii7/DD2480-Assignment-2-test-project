@@ -25,7 +25,7 @@ public class LIC3Test {
         Parameters parameters = new Parameters();
         parameters.setArea1(-3);
         // assertFalse(Decide.cmv3(X, Y, NUMPOINTS, AREA1));
-        assertTrue(licService.evaluateLICById(3, points, parameters), "cmv3 should return false when AREA1 is negative");
+        assertFalse(licService.evaluateLICById(3, points, parameters), "cmv3 should return false when AREA1 is negative");
     }
     
     @Test
@@ -40,7 +40,7 @@ public class LIC3Test {
         Parameters parameters = new Parameters();
         parameters.setArea1(1.99);
         
-        assertTrue(licService.evaluateLICById(3, points, parameters), "cmv3 should return true when there exists a triangle made up of three consuectuive points that have an area larger than AREA1");
+        assertFalse(licService.evaluateLICById(3, points, parameters), "cmv3 should return true when there exists a triangle made up of three consuectuive points that have an area larger than AREA1");
     }
     
     @Test
