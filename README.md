@@ -14,7 +14,7 @@ xxxx
 **Oscar Judd:**
 - LIC methods 2, 6, 9, 11
 - Created README.md file
-
+xx
 **Elliot Marklund:** 
 - LIC methods 3, 10, 14
 - Wrote the Main.java that implements the final launch logic
