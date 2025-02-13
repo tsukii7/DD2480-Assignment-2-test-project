@@ -4,8 +4,8 @@ The Anti-Ballistic Missile Decision System makes a decision on whether anti-ball
 
 ### Contributions
 
-Each implementation also involves the task of creating the relevant tests for the created methods.\
-\
+Each implementation also involves the task of creating the relevant tests for the created methods.
+
 **Mary Abeysekera:**
 - LIC methods 1, 5, 8, 13
 - Created the WayOfWorking.md
