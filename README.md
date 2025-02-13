@@ -2,7 +2,7 @@
 sssssssss
 The Anti-Ballistic Missile Decision System makes a decision on whether anti-ballistic missiles should be launched or not based on given radar inputs and chose parameters.
 sss
-vvvvxxxxxxxsss
+vvvvxxxxxxxssssss
 ### Contributions
 
 Each implementation also involves the task of creating the relevant tests for the created methods.
