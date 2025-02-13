@@ -40,7 +40,7 @@ public class LIC3Test {
         Parameters parameters = new Parameters();
         parameters.setArea1(1.99);
         
-        assertFalse(licService.evaluateLICById(3, points, parameters), "cmv3 should return true when there exists a triangle made up of three consuectuive points that have an area larger than AREA1");
+        assertTrue(licService.evaluateLICById(3, points, parameters), "cmv3 should return true when there exists a triangle made up of three consuectuive points that have an area larger than AREA1");
     }
     
     @Test
