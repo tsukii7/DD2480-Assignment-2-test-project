@@ -6,7 +6,7 @@ vvvvxxxxxxxssssss
 ### Contributions
 
 Each implementation also involves the task of creating the relevant tests for the created methods.
-x
+xxx
 **Mary Abeysekera:**
 - LIC methods 1, 5, 8, 13
 - Created the WayOfWorking.md
