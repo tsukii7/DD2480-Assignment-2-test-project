@@ -5,7 +5,7 @@ sss
 vvvvxxxxxxxssssss
 ### Contributions
 xx
-Each implementation also involves the task of creating the relevant tests for the created methods.
+Each implementation also involves the task of creating the relevant tests for the created methods.xx
 xxxx
 **Mary Abeysekera:**
 - LIC methods 1, 5, 8, 13
